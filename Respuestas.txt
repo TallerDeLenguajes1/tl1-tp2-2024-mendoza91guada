@@ -1,0 +1,15 @@
+2 f) Inspeccione desde git bash o la terminal de Windows (PowerShell) la carpeta donde inicializó el repositorio:
+● ¿Puede ver el archivo tp2_1_2.c? ¿Por qué?
+RESPUESTA: No se puede ver porqué fue creado en la rama Opcion_2, no en main.
+
+● Utilice el comando gitk --all para ver una representación gráfica del historial de versiones del repositorio.
+● En la línea principal agregue un nuevo archivo que se llame Respuestas.txt y realice un commit para agregar este archivo al repositorio
+
+● Vuelva a ejecutar el comando gitk --all ¿Qué diferencias nota?
+RESPUESTA: Aparece el nuevo commit que se hizo en la línea main. 
+
+● En el Branch main se va a combinar (merge) ambos repositorios. Para esto, utilice el siguiente comando:
+o git merge Opcion_2 -m "merge opcion 2" → combinamos master con Opcion_2
+● Luego utilice el comando gitk –all para ver los cambios, ¿Qué nota?
+RESPUESTA: Ahora se unen main con Opcion_2 indicando que están combinadas y los commits derivan de ambas ramas.
+
